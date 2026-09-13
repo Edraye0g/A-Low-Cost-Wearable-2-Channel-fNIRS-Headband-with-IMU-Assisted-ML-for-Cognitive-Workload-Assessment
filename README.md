@@ -108,6 +108,8 @@ The Detectors: 2x OPT101 Sensors
 The Amplifiers: 2x LM358 Op-Amps, 2x 15k ohm resistors, 2x 0.1uF capacitors, 4x 10k ohm fixed resistors, 2x 50k ohm potentiometers
 
 ## Circuit Design
+
+```
 [ESP32 Digital Pin] ──(Control)──> [SN7405 Inverter] ──> [PN2369A Transistor] ──> [LEDs (30-50mA)]
                                                                                        │
 [ESP32 ADC1 Input]  <──(Gain Stage)── [LM358 Op-Amp] <──(LPF)── [OPT101 Sensor] <──────┘
@@ -139,7 +141,7 @@ THE SIGNAL JOURNEY (fNIRS + IMU)
      |                MPU6050 IMU Sensor                        
      <=============== - Tracks X/Y/Z head movement           <====== [ PHYSICAL HEAD MOTION ]
        (I2C Digital)  - Sends digital timestamps
-
+```
 
 ## Questions Answer
  ### Question 1
