@@ -162,7 +162,7 @@ Verification of Brain Hemodynamics
 Initial Plan (Old Approach)
 Depended entirely on placing the headset on the forehead during a cognitive task (mental arithmetic) and assuming that any observed signal shift represented brain activity.
 Why this is vulnerable: Cognitive signals are tiny ( ). Without a baseline reference, a reviewer can claim the measured signal is merely forehead sweat, motion artifacts, or superficial scalp blood flow.
-
+```
 [TIER 1: Physical Bench Validation] ──> Forearm Ischemia (Cuff Occlusion at 230 mmHg)
                                          (Proves MBLL math & optical front-end)
                                                         │
@@ -170,7 +170,7 @@ Why this is vulnerable: Cognitive signals are tiny ( ). Without a baseline refer
 [TIER 2: Cortical Isolation]         ──> Dual-Channel Subtraction (3cm Long - 1cm Short)
                                          (Isolates Cortex from Scalp Noise)
 
-
+```
 1. Tier 1: Physical Ground-Truth Ischemia (Forearm Cuff Occlusion Test):
 Before placing the sensor on the head, the probe is secured to the subject's flexor muscle on the forearm.
 A pneumatic cuff is inflated to  for 5 minutes (arterial occlusion) and then rapidly released (reactive hyperemia).
